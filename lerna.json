@@ -1,0 +1,17 @@
+{
+    "version": "independent",
+    "npmClient": "npm",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "packages": [
+        "packages/*"
+    ],
+    "tagVersionPrefix": "",
+    "command": {
+        "publish": {
+            "allowBranch": "master"
+        }
+    }
+}

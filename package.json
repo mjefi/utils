@@ -1,0 +1,44 @@
+{
+    "name": "utils",
+    "version": "1.0.0",
+    "description": "Utils",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "scripts": {
+        "lerna:bootstrap": "lerna bootstrap",
+        "postinstall": "lerna bootstrap --force-local && npm run build:all",
+        "build:all": "lerna exec -- npm run build",
+        "test": "lerna run test",
+        "build": "lerna run build",
+        "publish": "lerna publish from-package --y --no-verify-access"
+    },
+    "workspaces": {
+        "packages": [
+            "packages/**"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mjefi/utils.git"
+    },
+    "keywords": [
+        "utils"
+    ],
+    "author": "Marcin <mjeightyfive@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mjefi/utils/issues"
+    },
+    "homepage": "https://github.com/mjefi/utils#readme",
+    "devDependencies": {
+        "@babel/cli": "7.8.4",
+        "@babel/core": "7.9.0",
+        "@babel/plugin-transform-runtime": "7.9.0",
+        "@babel/preset-env": "7.9.0",
+        "@changesets/cli": "2.6.2",
+        "babel-jest": "25.2.3",
+        "jest": "25.2.3",
+        "lerna": "^3.20.2"
+    }
+}
