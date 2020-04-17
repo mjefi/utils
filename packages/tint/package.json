@@ -2,7 +2,7 @@
     "name": "@mjefi/tint",
     "version": "0.0.1",
     "description": "base css styles",
-    "main": "dist/tint.scss",
+    "main": "dist/tint.css",
     "scripts": {
         "dev": "npm run watch",
         "watch": "node-sass --watch src/scss -o example",
