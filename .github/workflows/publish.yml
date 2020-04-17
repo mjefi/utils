@@ -18,6 +18,7 @@ jobs:
 
     publish:
         name: Publish or Create Pull Request
+        needs: build
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Repo
