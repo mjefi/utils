@@ -1,36 +1,36 @@
 {
-    "name": "@mjefi/tint",
-    "version": "0.0.1",
-    "description": "base css styles",
-    "main": "dist/tint.css",
-    "scripts": {
-        "dev": "npm run watch",
-        "watch": "node-sass --watch src/scss -o example",
-        "build": "node-sass src/scss -o dist",
-        "release": "cp dist/tint.css example && gh-pages -d example"
-    },
-    "dependencies": {
-        "@babel/register": "7.9.0",
-        "@mjeightyfive/stylelint-config": "^0.0.7"
-    },
-    "devDependencies": {
-        "gh-pages": "2.2.0",
-        "node-sass": "4.13.1",
-        "prettier": "2.0.4",
-        "stylelint": "13.3.2"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mjefi/utils.git",
-        "directory": "packages/tint"
-    },
-    "author": "Marcin <mjeightyfive@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mjefi/utils/issues"
-    },
-    "homepage": "https://github.com/mjefi/utils#readme"
+  "name": "@mjefi/tint",
+  "version": "0.0.2",
+  "description": "base css styles",
+  "main": "dist/tint.css",
+  "scripts": {
+    "dev": "npm run watch",
+    "watch": "node-sass --watch src/scss -o example",
+    "build": "node-sass src/scss -o dist",
+    "release": "cp dist/tint.css example && gh-pages -d example"
+  },
+  "dependencies": {
+    "@babel/register": "7.9.0",
+    "@mjeightyfive/stylelint-config": "^0.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "2.2.0",
+    "node-sass": "4.13.1",
+    "prettier": "2.0.4",
+    "stylelint": "13.3.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjefi/utils.git",
+    "directory": "packages/tint"
+  },
+  "author": "Marcin <mjeightyfive@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjefi/utils/issues"
+  },
+  "homepage": "https://github.com/mjefi/utils#readme"
 }
