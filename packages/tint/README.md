@@ -14,7 +14,7 @@
 
 `npm run watch`
 
-and open `example/index.html`
+and open `docs/index.html`
 
 ## Credits
 
