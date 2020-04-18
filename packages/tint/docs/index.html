@@ -8,20 +8,18 @@
     <meta name="author" content="mrmrs">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./tint.css">
+    <link rel="preload" as="font" type="font/woff2" href="https://media.mje.fi/s/assets/fonts/inter/Inter-roman.var.woff2" crossorigin />
+    <link href="https://media.mje.fi/s/assets/fonts/inter/inter.css" rel="stylesheet">
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji','Segoe UI Symbol';
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 0 32px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 32px;
         }
-
-        body > section { margin: 72px 0; }
-        body > header { margin: 72px 0; }
     </style>
 </head>
 
-<body>
+<body class="-vr">
     <header>
         <h1>HTML</h1>
         <h2>Every html element in one place. Just waiting to be styled.</h2>
@@ -39,52 +37,30 @@
         </nav>
     </header>
     <section>
-        <h>Headings &amp; Copy</h1>
-            <h1>First Header h1</h1>
-            <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum deleniti atque corrupti quos.
-            </p>
-            <h2>Second header h2</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <h3>Third header h3</h3>
-            <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident, similique sunt
-                in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                fuga. Et harum quidem rerum facilis est et expedita distinctio.
-            </p>
-            <h4>Fourth header h4</h4>
-            <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
-                ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
-                ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-                qui dolorem eum fugiat quo voluptas nulla pariatur?"
-            </p>
-            <h5>Fifth header h5</h5>
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            </p>
-            <h6>Sixth header h6</h6>
-            <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum deleniti atque corrupti quos.
-            </p>
+        <h1>First Header h1</h1>
+        <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        </p>
+        <h2>Second header h2</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h3>Third header h3</h3>
+        <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+        </p>
+        <h4>Fourth header h4</h4>
+        <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        </p>
+        <h5>Fifth header h5</h5>
+        <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
+        <h6>Sixth header h6</h6>
+        <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.
+        </p>
     </section>
     <hr />
     <section>
@@ -92,7 +68,6 @@
         <a href="#">Sample text link</a>
         <a href="#">Sample button link</a>
     </section>
-    <hr />
     <section>
         <h1>Lists</h1>
         <h2>Unordered list</h2>
@@ -142,19 +117,11 @@
             <dt> Ascender </dt>
             <dd> The part of certain lowercase letters that extends above the x-height of a font. </dd>
             <dt> Font </dt>
-            <dd> Traditionally, a complete set of characters for one typeface at
-                one particular type size. Often used more loosely as a synonym for
-                "typeface".
+            <dd> Traditionally, a complete set of characters for one typeface at one particular type size. Often used more loosely as a synonym for "typeface".
             </dd>
             <dt> Golden Section </dt>
             <dd>
-                The ideal proportion according to the ancient Greeks. It is visualized as the
-                division of a line into two unequal segments in such a way that the ratio of the
-                smaller segment to the larger segment is equal to the ratio of the larger to the
-                whole. It is usually defined as 21:34, that is, 21/34 and 34/(21+34) both equal
-                approximately 0.618. A rectangle whose sides are of this proportion is called a
-                "golden rectangle". Golden rectangles can be found in the proportions of the
-                Parthenon and many medieval manuscripts.
+                The ideal proportion according to the ancient Greeks. It is visualized as the division of a line into two unequal segments in such a way that the ratio of the smaller segment to the larger segment is equal to the ratio of the larger to the whole. It is usually defined as 21:34, that is, 21/34 and 34/(21+34) both equal approximately 0.618. A rectangle whose sides are of this proportion is called a "golden rectangle". Golden rectangles can be found in the proportions of the Parthenon and many medieval manuscripts.
             </dd>
         </dl>
     </section>
@@ -200,9 +167,18 @@
                 <div>
                     <label>Radio Buttons</label>
                     <ul>
-                        <li><label><input type="radio" /> Label 1</label></li>
-                        <li><label><input type="radio" /> Label 2</label></li>
-                        <li><label><input type="radio" /> Label 3</label></li>
+                        <li>
+                            <label>
+                                <input type="radio" /> Label 1</label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" /> Label 2</label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" /> Label 3</label>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -214,7 +190,9 @@
                     <textarea></textarea>
                 </div>
                 <div>
-                    <label><input type="checkbox" /> This is a checkbox.</label>
+                    <label>
+                        <input type="checkbox" /> This is a checkbox.
+                    </label>
                 </div>
                 <div>
                     <input type="submit" value="Submit" />
@@ -228,18 +206,13 @@
         <button>A button</button>
         <button>A large button</button>
     </section>
-    <hr />
     <section>
         <h1>An Example Article</h1>
         <article>
-            <h1>Title</h1>
+            <h2>Title</h2>
             <p>
-                Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit</b>, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud <em>exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat</em>. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit</b>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <em>exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat</em>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <blockquote>
                 <p>
@@ -248,32 +221,18 @@
                 <a href="#">- Author</a>
             </blockquote>
             <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
-                ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
-                ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-                qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi <a href="#">tempora incidunt</a> ut labore et dolore <code>rm -rf /</code> quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
             </p>
             <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident, similique sunt
-                in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
             </p>
         </article>
     </section>
     <hr />
     <section>
         <h1>Code examples</h1>
-        <code>
-        <pre>
-      sudo ipfw pipe 1 config bw 256KByte/s
-      sudo ipfw add 1 pipe 1 src-port 3000
-    </pre>
-    </code>
+<pre><code>sudo ipfw pipe 1 config bw 256KByte/s
+sudo ipfw add 1 pipe 1 src-port 3000</code></pre>
     </section>
     <hr />
     <section>
@@ -323,44 +282,44 @@
             <var>f</var>(<var>x</var>) = <var>a</var><sub>0</sub> + <var>a</var><sub>1</sub><var>x</var> +
             <var>a</var><sub>2</sub><var>x</var><sup>2</sup>, where <var>a</var><sup>2</sup> ≠ 0
         </p>
-        <time datetime="2013-09-07" pubdate>07 September 2013</time>
+        <time datetime="2018-06-07" pubdate>07 June 2018</time>
     </section>
     <section>
         <figure>
-            <img src="https://scontent-lhr3-1.cdninstagram.com/vp/9aa36c2b65fc29e050e4f47d0062cd78/5D68C175/t51.2885-15/sh0.08/e35/s750x750/57400202_291524005126524_2953146514049170682_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com" alt="Figure Example">
+            <img src="https://media.mje.fi/s/tint/2018-06-07-2018-06-07-ben-nevis-fort-william-scotland-united-kingdom-19-55-55-mje.fi-mjeightyfive.jpg?nf_resize=fit&h=400" alt="Scottish Highlands">
             <figcaption>
-                Photo by <a href="https://instagram.com/mjeightyfive/">@mjeightyfive</a>
+                Scottish Highlands &copy; <a href="https://instagram.com/mjeightyfive/">@mjeightyfive</a>
             </figcaption>
         </figure>
     </section>
     <section>
+        <h1>Samp</h1>
         <!--
     http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-samp-element
     -->
-        <samp>
-            <pre>
-          /Sites/html master  ☠ ☢
-          $  <kbd>ls -gto</kbd>
-
-          total 104
-          -rw-r--r--   1   10779 Jun  5 16:24 index.html
-          -rw-r--r--   1    1255 Jun  5 16:00 _config.yml
-          drwxr-xr-x  11     374 Jun  5 15:57 _site
-          -rw-r--r--   1    1597 Jun  5 14:16 README.md
-          drwxr-xr-x   5     170 Jun  5 14:15 _sass
-          -rw-r--r--   1     564 Jun  4 15:59 Rakefile
-          drwxr-xr-x   6     204 Jun  4 15:59 _includes
-          drwxr-xr-x   4     136 Jun  4 15:59 _layouts
-          drwxr-xr-x   3     102 Jun  4 15:59 _resources
-          drwxr-xr-x   3     102 Jun  4 15:59 css
-          -rw-r--r--   1    1977 Jun  4 15:59 favicon.icns
-          -rw-r--r--   1    6518 Jun  4 15:59 favicon.ico
-          -rw-r--r--   1    1250 Jun  4 15:59 touch-icon-ipad-precomposed.png
-          -rw-r--r--   1    2203 Jun  4 15:59 touch-icon-ipad-retina-precomposed.png
-          -rw-r--r--   1    1046 Jun  4 15:59 touch-icon-iphone-precomposed.png
-          -rw-r--r--   1    1779 Jun  4 15:59 touch-icon-iphone-retina-precomposed.png
-        </pre>
-        </samp>
+<pre>
+<samp>
+~/Dev/utils css-tweaks*
+❯ <kbd>ls -gola</kbd>
+total 1296
+drwxr-xr-x   16      512 18 Apr 15:19 .
+drwxr-xr-x   49     1568 19 Apr 14:49 ..
+-rw-r--r--@   1     6148 17 Apr 19:46 .DS_Store
+drwxr-xr-x    4      128 18 Apr 15:19 .changeset
+-rw-r--r--    1      214 29 Mar 17:29 .editorconfig
+drwxr-xr-x   14      448 19 Apr 20:24 .git
+drwxr-xr-x    3       96 29 Mar 17:29 .github
+-rw-r--r--    1     1854 19 Apr 20:20 .gitignore
+-rw-r--r--    1      103 18 Apr 13:28 .npmrc
+-rw-r--r--    1       70 18 Apr 14:30 README.md
+-rw-r--r--    1      125 29 Mar 17:29 jest.config.js
+-rw-r--r--    1      330  3 Apr 15:59 lerna.json
+drwxr-xr-x  706    22592 18 Apr 13:14 node_modules
+-rw-r--r--    1   625897 18 Apr 13:28 package-lock.json
+-rw-r--r--    1     1161 18 Apr 15:19 package.json
+drwxr-xr-x    4      128 17 Apr 20:09 packages
+</samp>
+</pre>
     </section>
     <section>
         <h1>Tables</h1>

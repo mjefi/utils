@@ -4,18 +4,19 @@
   "description": "base css styles",
   "main": "dist/tint.css",
   "scripts": {
-    "watch": "postcss --watch src/tint.css -o docs/tint.css",
-    "build": "postcss src/tint.css -o dist/tint.css && npm run cp",
-    "cp": "cp dist/tint.css docs"
+    "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css && cp dist/tint.css docs",
+    "watch": "postcss --watch --map --config postcss.config.js src/tint.css --output docs/tint.css"
   },
-  "dependencies": {},
+  "dependencies": {
+    "modern-normalize": "^0.6.0"
+  },
   "devDependencies": {
     "@babel/register": "7.9.0",
     "@mjeightyfive/stylelint-config": "^0.0.7",
-    "postcss": "^7.0.27",
-    "postcss-cli": "^7.1.0",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-cli": "7.1.0",
+    "postcss-env-function": "3.0.0",
+    "postcss-import": "12.0.1",
+    "precss": "4.0.0",
     "prettier": "2.0.4",
     "stylelint": "13.3.2"
   },
