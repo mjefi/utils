@@ -4,16 +4,14 @@
   "description": "base css styles",
   "main": "dist/tint.css",
   "scripts": {
-    "dev": "npm run watch",
     "watch": "postcss --watch src/tint.css -o example/tint.css",
     "build": "postcss src/tint.css -o dist/tint.css",
     "release": "cp dist/tint.css example && gh-pages -d example"
   },
-  "dependencies": {
-    "@babel/register": "7.9.0",
-    "@mjeightyfive/stylelint-config": "^0.0.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/register": "7.9.0",
+    "@mjeightyfive/stylelint-config": "^0.0.7",
     "gh-pages": "2.2.0",
     "postcss": "^7.0.27",
     "postcss-cli": "^7.1.0",

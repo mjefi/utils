@@ -12,7 +12,7 @@
 
 ## Run
 
-`npm run dev`
+`npm run watch`
 
 and open `example/index.html`
 
