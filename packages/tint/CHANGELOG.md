@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.4
+
+### Patch Changes
+
+- 99902ce: bin node sass and refactor to postcss
+
 ## 0.0.3
 
 ### Patch Changes
