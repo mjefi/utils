@@ -12,7 +12,7 @@ jobs:
               with:
                   node-version: 10
             - run: NODE_ENV=development npm ci
-            - run: lerna boostrap
+            - run: npm run lerna:bootstrap
             - run: NODE_ENV=production npm run build --if-present
             - run: npm t
 
