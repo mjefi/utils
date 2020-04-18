@@ -1,9 +1,0 @@
-a {
-    color: $colour-primary;
-
-    &:focus,
-    &:hover {
-        text-decoration: none;
-        color: $colour-tertiary;
-    }
-}

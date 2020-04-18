@@ -5,7 +5,7 @@ table {
 
 td,
 th {
-    border-bottom: 0.1rem solid $colour-quinary;
+    border-bottom: 0.1rem solid var(--colour-quinary);
     padding: 1.2rem 1.5rem;
     text-align: left;
 
@@ -26,7 +26,7 @@ th {
     }
 
     thead {
-        border-right: solid 0.1rem $colour-quinary;
+        border-right: solid 0.1rem var(--colour-quinary);
 
         td,
         th {
@@ -48,7 +48,7 @@ th {
         white-space: nowrap;
 
         tr {
-            border-right: solid 0.1rem $colour-quinary;
+            border-right: solid 0.1rem var(--colour-quinary);
 
             &:last-child {
                 border-right: none;

@@ -1,5 +1,5 @@
 blockquote {
-    border-left: 0.3rem solid $colour-quaternary;
+    border-left: 0.3rem solid var(--colour-quaternary);
     margin-left: 0;
     margin-right: 0;
     padding: 1rem 1.5rem;

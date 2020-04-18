@@ -1,5 +1,5 @@
 code {
-    background: $colour-quaternary;
+    background: var(--colour-quaternary);
     border-radius: 0.4rem;
     font-size: 86%;
     margin: 0 0.2rem;
@@ -8,8 +8,8 @@ code {
 }
 
 pre {
-    background: $colour-quaternary;
-    border-left: 0.3rem solid $colour-primary;
+    background: var(--colour-quaternary);
+    border-left: 0.3rem solid var(--colour-primary);
     overflow-y: hidden;
 
     & > code {
