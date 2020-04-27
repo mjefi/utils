@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.6
+
+### Patch Changes
+
+- cccbef8: tweaks to base css styles
+
 ## 0.0.5
 
 ### Patch Changes
