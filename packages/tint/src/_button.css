@@ -3,22 +3,30 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-    background-color: var(--colour-primary);
+    font-size: env(--font-size-s);
+    line-height: env(--line-height-s);
+    font-weight: 700;
+    height: 3rem;
+    padding: 0 3rem;
+    margin-top: calc(env(--line-height) / 4 * 1rem);
+    margin-bottom: calc(env(--line-height) / 4 * 1rem);
     border: 0.1rem solid var(--colour-primary);
-    border-radius: 0.4rem;
+    border-radius: var(--radius);
+    background-color: var(--colour-primary);
     color: var(--colour-initial);
     cursor: pointer;
     display: inline-block;
-    font-size: 1.1rem;
-    font-weight: 700;
-    height: 3.8rem;
-    letter-spacing: 0.1rem;
-    line-height: 3.8rem;
-    padding: 0 3rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+}
 
     &:focus,
     &:hover {
