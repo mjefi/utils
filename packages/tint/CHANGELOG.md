@@ -1,5 +1,12 @@
 # @mjefi/tint
 
+## 0.0.11
+
+### Patch Changes
+
+- 84a0a42: prepublish
+- f529491: rm prepublish only from packages
+
 ## 0.0.10
 
 ### Patch Changes

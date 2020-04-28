@@ -1,5 +1,12 @@
 # @mjefi/server
 
+## 0.0.5
+
+### Patch Changes
+
+- 84a0a42: prepublish
+- f529491: rm prepublish only from packages
+
 ## 0.0.4
 
 ### Patch Changes
