@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.9
+
+### Patch Changes
+
+- 3a92597: update gitignore
+
 ## 0.0.8
 
 ### Patch Changes

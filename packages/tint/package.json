@@ -1,6 +1,6 @@
 {
   "name": "@mjefi/tint",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "base css styles",
   "main": "dist/tint.css",
   "files": ["dist"],
