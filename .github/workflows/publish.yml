@@ -31,10 +31,10 @@ jobs:
                   scope: '@mjefi'
             - name: Install Dependencies
               run: NODE_ENV=development npm ci
-            # - name: Install Packages Dependencies
-            #   run: npm run install:deps
-            # - name: Build
-            #   run: npm run build
+            - name: Install Packages Dependencies
+              run: npm run install:deps
+            - name: Build
+              run: npm run build
             - name: Create Release Pull Request or Publish to npm
               uses: changesets/action@master
               with:
