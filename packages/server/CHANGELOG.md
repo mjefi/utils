@@ -1,5 +1,11 @@
 # @mjefi/server
 
+## 0.0.8
+
+### Patch Changes
+
+- 6fa5583: rm npmrc
+
 ## 0.0.7
 
 ### Patch Changes
