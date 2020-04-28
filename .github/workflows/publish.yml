@@ -31,6 +31,8 @@ jobs:
                   scope: '@mjefi'
             - name: Install Dependencies
               run: NODE_ENV=development npm ci
+            - name: Install Packages Dependencies
+              run: NODE_ENV=development lerna exec -- npm ci
             - name: Create Release Pull Request or Publish to npm
               uses: changesets/action@master
               with:
