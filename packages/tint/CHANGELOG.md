@@ -1,5 +1,14 @@
 # @mjefi/tint
 
+## 0.0.7
+
+### Patch Changes
+
+- 18ada5b: no lockfile
+- 8b155e3: put back lock files
+- 6143274: update scripts
+- d08dc15: files dist
+
 ## 0.0.6
 
 ### Patch Changes
