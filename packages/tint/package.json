@@ -5,7 +5,7 @@
   "main": "dist/tint.css",
   "files": ["dist"],
   "scripts": {
-    "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css && cp dist/tint.css docs",
+    "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css",
     "watch": "postcss src/tint.css --watch --map --config postcss.config.js --output dist/tint.css && cp dist/tint.css docs"
   },
   "dependencies": {
