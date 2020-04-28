@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.12
+
+### Patch Changes
+
+- ba661d9: keep dist in sync
+
 ## 0.0.11
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mjefi/server
 
+## 0.0.6
+
+### Patch Changes
+
+- ba661d9: keep dist in sync
+
 ## 0.0.5
 
 ### Patch Changes
