@@ -15,6 +15,10 @@ jobs:
             - run: npm run lerna:bootstrap
             - run: NODE_ENV=production npm run build --if-present
             - run: npm t
+            - uses: actions/upload-artifact@v1
+              with:
+                  name: dist
+                  path: dist
 
     publish:
         name: Publish or Create Pull Request
