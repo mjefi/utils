@@ -1,0 +1,12 @@
+{
+    "ignore": [".git", "node_modules", "dist/.next"],
+    "verbose": true,
+    "execMap": {
+        "js": "node"
+    },
+    "watch": ["dist/", "next.config.js"],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,json"
+}
