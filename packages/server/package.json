@@ -1,6 +1,6 @@
 {
   "name": "@mjefi/server",
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "Express Server",
   "main": "dist/index.js",
   "files": ["dist"],
@@ -12,7 +12,7 @@
     "dev": "npm run clean && npm run build && nodemon dist/index.js & npm run watch",
     "build": "babel src/index.js --out-dir dist",
     "watch": "babel src/index.js --watch --out-dir dist",
-    "prepare": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "body-parser": "1.19.0",
