@@ -53,11 +53,18 @@
     "prettier": "2.0.5",
     "typescript": "3.7.0-beta"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjefi/utils.git",
+    "directory": "packages/tint"
+  },
   "author": "Marcin <mjeightyfive@gmail.com>",
   "license": "MIT",
-  "keywords": [
-    "express",
-    "server",
-    "node"
-  ]
+  "bugs": {
+    "url": "https://github.com/mjefi/utils/issues"
+  },
+  "homepage": "https://github.com/mjefi/utils#readme"
 }
