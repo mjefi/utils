@@ -10,7 +10,7 @@
         "install:deps": "NODE_ENV=development lerna exec -- npm ci",
         "build": "lerna run build",
         "test": "lerna run test",
-        "publish": "lerna publish --contents dist from-package --y --no-verify-access"
+        "publish": "lerna publish from-package --y --no-verify-access"
     },
     "workspaces": {
         "packages": [
