@@ -1,5 +1,13 @@
 # @mjefi/server
 
+## 0.0.4
+
+### Patch Changes
+
+- 5e26ccf: update readme and ignore
+- 2f0bffc: update readme
+- d6de812: try prepare script
+
 ## 0.0.3
 
 ### Patch Changes

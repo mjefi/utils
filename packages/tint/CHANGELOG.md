@@ -1,5 +1,13 @@
 # @mjefi/tint
 
+## 0.0.10
+
+### Patch Changes
+
+- 5e26ccf: update readme and ignore
+- 2f0bffc: update readme
+- d6de812: try prepare script
+
 ## 0.0.9
 
 ### Patch Changes
