@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.14
+
+### Patch Changes
+
+- e46a50d: dont copy dist to docs on build
+
 ## 0.0.13
 
 ### Patch Changes
