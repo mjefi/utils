@@ -9,7 +9,6 @@
         "lerna:bootstrap": "lerna bootstrap",
         "build": "lerna run build",
         "test": "lerna run test",
-        "prepublishOnly": "npm run build",
         "publish": "lerna publish from-package --y --no-verify-access"
     },
     "workspaces": {

@@ -33,6 +33,8 @@ jobs:
               run: NODE_ENV=development npm ci
             - name: Install Packages Dependencies
               run: NODE_ENV=development lerna exec -- npm ci
+            - name: Build
+              run: npm run build
             - name: Create Release Pull Request or Publish to npm
               uses: changesets/action@master
               with:
