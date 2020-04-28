@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.15
+
+### Patch Changes
+
+- 6fa5583: rm npmrc
+
 ## 0.0.14
 
 ### Patch Changes
