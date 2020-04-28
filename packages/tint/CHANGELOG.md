@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.8
+
+### Patch Changes
+
+- 36d1204: fix ignored
+
 ## 0.0.7
 
 ### Patch Changes
