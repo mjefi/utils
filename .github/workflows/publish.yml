@@ -31,6 +31,8 @@ jobs:
                   scope: '@mjefi'
             - name: Install Dependencies
               run: NODE_ENV=development npm ci
+            - name: Bootstrap
+              run: npm run lerna:bootstrap
             - name: Create Release Pull Request or Publish to npm
               uses: changesets/action@master
               with:
