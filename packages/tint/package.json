@@ -3,6 +3,7 @@
   "version": "0.0.6",
   "description": "base css styles",
   "main": "dist/tint.css",
+  "files": ["dist"],
   "scripts": {
     "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css && cp dist/tint.css docs",
     "watch": "postcss src/tint.css --watch --map --config postcss.config.js --output dist/tint.css && cp dist/tint.css docs"
