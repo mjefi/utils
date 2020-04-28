@@ -1,3 +1,3 @@
-# server
+# @mjefi/server
 
 > simple express server
