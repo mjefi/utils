@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.13
+
+### Patch Changes
+
+- d5b89f6: update docs
+
 ## 0.0.12
 
 ### Patch Changes

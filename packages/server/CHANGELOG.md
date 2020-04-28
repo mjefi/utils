@@ -1,5 +1,11 @@
 # @mjefi/server
 
+## 0.0.7
+
+### Patch Changes
+
+- d5b89f6: update docs
+
 ## 0.0.6
 
 ### Patch Changes
