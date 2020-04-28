@@ -7,7 +7,7 @@
     },
     "scripts": {
         "lerna:bootstrap": "lerna bootstrap",
-        "lerna:clean": "lerna clean",
+        "lerna:clean": "lerna clean --yes",
         "lerna:deps": "NODE_ENV=development lerna exec -- npm ci",
         "build": "lerna run build",
         "test": "lerna run test",
