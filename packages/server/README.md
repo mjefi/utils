@@ -1,7 +1,3 @@
 # server
 
-asdf
-asdf
-asdf
-asdf
-asdf
+> simple express server
