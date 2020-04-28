@@ -29,12 +29,8 @@ jobs:
                   node-version: 10
                   registry-url: https://npm.pkg.github.com/
                   scope: '@mjefi'
-            - name: Install
-              run: NODE_ENV=development npm ci
-            - name: Bootstrap
-              run: npm run lerna:bootstrap
-            - name: Build Dist
-              run: NODE_ENV=production npm run build --if-present
+            - name: Install Dependencies
+              run: npm install --ignore-scripts
             - name: Create Release Pull Request or Publish to npm
               uses: changesets/action@master
               with:
