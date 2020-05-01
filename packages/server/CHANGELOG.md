@@ -1,5 +1,11 @@
 # @mjefi/server
 
+## 0.0.9
+
+### Patch Changes
+
+- e906edd: no lock files
+
 ## 0.0.8
 
 ### Patch Changes
