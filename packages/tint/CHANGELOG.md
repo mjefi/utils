@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.16
+
+### Patch Changes
+
+- 4b0fd14: update lock file
+
 ## 0.0.15
 
 ### Patch Changes
