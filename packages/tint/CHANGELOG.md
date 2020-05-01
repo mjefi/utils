@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.17
+
+### Patch Changes
+
+- e906edd: no lock files
+
 ## 0.0.16
 
 ### Patch Changes
