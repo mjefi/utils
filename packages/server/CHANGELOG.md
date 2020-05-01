@@ -1,5 +1,11 @@
 # @mjefi/server
 
+## 0.0.10
+
+### Patch Changes
+
+- 905622b: package json autoformat
+
 ## 0.0.9
 
 ### Patch Changes

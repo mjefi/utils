@@ -1,5 +1,12 @@
 # @mjefi/tint
 
+## 0.0.18
+
+### Patch Changes
+
+- 1f8bd6e: add global headings classes
+- 905622b: package json autoformat
+
 ## 0.0.17
 
 ### Patch Changes
