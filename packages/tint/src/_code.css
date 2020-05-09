@@ -22,7 +22,7 @@ code {
     position: relative;
     top: -1px;
     white-space: nowrap;
-border-radius: var(--radius);
+    border-radius: var(--radius);
 }
 
 :not(pre) code {

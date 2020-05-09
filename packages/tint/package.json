@@ -3,10 +3,12 @@
   "version": "0.0.18",
   "description": "Base CSS Styles",
   "main": "dist/tint.css",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css",
-    "watch": "postcss src/tint.css --watch --map --config postcss.config.js --output dist/tint.css && cp dist/tint.css docs"
+    "dev": "postcss src/tint.css --watch --map --config postcss.config.js --output docs/tint.css"
   },
   "dependencies": {
     "modern-normalize": "^0.6.0"

@@ -5,11 +5,9 @@ body {
     color: var(--colour-primary);
     font-weight: 400;
     letter-spacing: -0.03125rem;
-
 }
 
-h1,
-:global(.h1) {
+h1 {
     font-size: env(--font-size-xl);
     line-height: env(--line-height-xl);
     margin-top: env(--margin);
@@ -17,8 +15,7 @@ h1,
     letter-spacing: -0.1875rem;
 }
 
-h2,
-:global(.h2) {
+h2 {
     font-size: env(--font-size-l);
     line-height: env(--line-height-l);
     margin-top: env(--margin);
@@ -26,8 +23,7 @@ h2,
     letter-spacing: -0.125rem;
 }
 
-h3,
-:global(.h3) {
+h3 {
     font-size: env(--font-size-m);
     line-height: env(--line-height-m);
     margin-top: env(--margin);
@@ -36,11 +32,8 @@ h3,
 }
 
 h4,
-:global(.h4),
 h5,
-:global(.h5),
-h6,
-:global(.h6) {
+h6 {
     font-size: env(--font-size-s);
     line-height: env(--line-height-s);
     margin-top: env(--margin);
@@ -144,4 +137,38 @@ fieldset {
     }
 }
 
+:global {
+    .h1 {
+        font-size: env(--font-size-xl);
+        line-height: env(--line-height-xl);
+        margin-top: env(--margin);
+        margin-bottom: env(--margin);
+        letter-spacing: -0.1875rem;
+    }
 
+    .h2 {
+        font-size: env(--font-size-l);
+        line-height: env(--line-height-l);
+        margin-top: env(--margin);
+        margin-bottom: env(--margin);
+        letter-spacing: -0.125rem;
+    }
+
+    .h3 {
+        font-size: env(--font-size-m);
+        line-height: env(--line-height-m);
+        margin-top: env(--margin);
+        margin-bottom: 0;
+        letter-spacing: -0.0625rem;
+    }
+
+    .h4,
+    .h5,
+    .h6 {
+        font-size: env(--font-size-s);
+        line-height: env(--line-height-s);
+        margin-top: env(--margin);
+        margin-bottom: 0;
+        letter-spacing: 0;
+    }
+}

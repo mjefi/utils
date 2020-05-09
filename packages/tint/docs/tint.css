@@ -342,22 +342,13 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    background-color: red;
     text-rendering: optimizeSpeed;
 }
 
 img {
     max-width: 100%;
     display: block;
-}
-
-@media (prefers-reduced-motion: reduce) {
-    * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
 }
 
 body {
@@ -370,7 +361,6 @@ body {
     color: var(--colour-primary);
     font-weight: 400;
     letter-spacing: -0.03125rem;
-
 }
 
 h1 {
@@ -500,6 +490,40 @@ fieldset label + input,
     fieldset label + textarea {
         margin-top: calc(2 / 4 * 1rem);
         margin-bottom: calc(2 / 4 * 1rem);
+    }
+
+:global .h1 {
+        font-size: 2.8125rem;
+        line-height: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        letter-spacing: -0.1875rem;
+    }
+
+:global .h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        letter-spacing: -0.125rem;
+    }
+
+:global .h3 {
+        font-size: 1.4375rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        letter-spacing: -0.0625rem;
+    }
+
+:global .h4,
+    :global .h5,
+    :global .h6 {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        letter-spacing: 0;
     }
 
 a {
@@ -842,8 +866,8 @@ code {
     position: relative;
     top: -1px;
     white-space: nowrap;
-border-radius: 0.3rem;
-border-radius: var(--radius);
+    border-radius: 0.3rem;
+    border-radius: var(--radius);
 }
 
 :not(pre) code {
