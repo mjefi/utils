@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.19
+
+### Patch Changes
+
+- 58a0a57: remove reduce motion, add global heading classes, rm min height from body
+
 ## 0.0.18
 
 ### Patch Changes
