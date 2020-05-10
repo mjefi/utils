@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.20
+
+### Patch Changes
+
+- 2edaedf: add simple dark mode vars
+
 ## 0.0.19
 
 ### Patch Changes
