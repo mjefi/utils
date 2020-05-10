@@ -289,7 +289,8 @@ summary {
     --colour-white: #fff;
     --colour-black: #111;
     --colour-grey: #aaa;
-/*
+
+    /*
     --colour-silver: #ddd;
     --colour-dark: #212121;
     --colour-navy: #001F3F;
@@ -347,6 +348,21 @@ summary {
         --weight-bold: 600
 }
     }
+
+.light {
+    --colour-initial: var(--colour-white);
+    --colour-primary: var(--colour-black);
+    --weight-normal: 400;
+    --weight-bold: 700;
+}
+
+.dark {
+    --colour-initial: #232323;
+    --colour-primary: var(--colour-white);
+
+    --weight-normal: 300;
+    --weight-bold: 600;
+}
 
 @supports (font-variation-settings: normal) {
     :root {
