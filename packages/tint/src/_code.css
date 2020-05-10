@@ -41,6 +41,6 @@ pre {
         margin-top: 0;
         display: block;
         white-space: pre;
-        color: white;
+        color: var(--colour-initial);
     }
 }

@@ -5,7 +5,7 @@ input[type='reset'],
 input[type='submit'] {
     font-size: env(--font-size-s);
     line-height: env(--line-height-s);
-    font-weight: 700;
+    font-weight: var(--weight-bold);
     height: 3rem;
     padding: 0 3rem;
     margin-top: calc(env(--line-height) / 4 * 1rem);

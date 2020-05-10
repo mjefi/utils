@@ -3,7 +3,7 @@ body {
     line-height: env(--line-height-s);
     font-family: var(--font-sans);
     color: var(--colour-primary);
-    font-weight: 400;
+    font-weight: var(--weight-normal);
     letter-spacing: -0.03125rem;
 }
 
@@ -62,7 +62,7 @@ h4,
 h5,
 h6 {
     font-family: var(--font-sans);
-    font-weight: 700;
+    font-weight: var(--weight-bold);
 }
 
 ul ul,
@@ -97,7 +97,7 @@ a,
 em,
 b,
 strong {
-    font-weight: 700;
+    font-weight: var(--weight-bold);
 }
 
 legend {
@@ -106,7 +106,7 @@ legend {
     margin-top: env(--margin);
     margin-bottom: env(--margin);
     letter-spacing: -0.125rem;
-    font-weight: 700;
+    font-weight: var(--weight-bold);
 }
 
 fieldset {
@@ -126,7 +126,7 @@ fieldset {
     }
 
     label {
-        font-weight: 700;
+        font-weight: var(--weight-bold);
     }
 
     label + input,
