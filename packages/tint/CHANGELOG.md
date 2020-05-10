@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.21
+
+### Patch Changes
+
+- 4b56291: add colour scheme classes
+
 ## 0.0.20
 
 ### Patch Changes
