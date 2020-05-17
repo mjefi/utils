@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.22
+
+### Patch Changes
+
+- bc92d92: update img path
+
 ## 0.0.21
 
 ### Patch Changes
