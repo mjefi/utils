@@ -1,3 +1,3 @@
 # @mjefi/tint
 
-> Base CSS Styles
+> Base CSS styles

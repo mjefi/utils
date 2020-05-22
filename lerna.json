@@ -10,6 +10,9 @@
     ],
     "tagVersionPrefix": "",
     "command": {
+        "bootstrap": {
+            "ci": false
+        },
         "publish": {
             "allowBranch": "master"
         }

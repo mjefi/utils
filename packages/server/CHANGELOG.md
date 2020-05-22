@@ -1,5 +1,12 @@
 # @mjefi/server
 
+## 0.0.12
+
+### Patch Changes
+
+- b489d1f: deps and csp
+- 248e24c: regenerate lockfile
+
 ## 0.0.11
 
 ### Patch Changes

@@ -1,3 +1,3 @@
 # @mjefi/server
 
-> Simple Express server
+> Express server
