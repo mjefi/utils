@@ -11,7 +11,7 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 10
-            - run: NODE_ENV=development npm ci
+            - run: NODE_ENV=development npm i
             - run: npm run lerna:bootstrap
             - run: NODE_ENV=production npm run build --if-present
             - run: npm t
@@ -30,7 +30,7 @@ jobs:
                   registry-url: https://npm.pkg.github.com/
                   scope: '@mjefi'
             - name: Install Dependencies
-              run: NODE_ENV=development npm ci
+              run: NODE_ENV=development npm i
             - name: Install Packages Dependencies
               run: npm run lerna:deps
             - name: Build
