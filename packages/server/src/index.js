@@ -5,15 +5,17 @@ import compress from 'compression';
 import cors from 'cors';
 import helmet from 'helmet';
 
-const server = express();
+const app = express();
 const dev = process.env.NODE_ENV !== 'production';
 
-server.disable('x-powered-by');
-server.use(morgan(dev ? 'dev' : 'combined')); // request logging. dev: console | production: file
-server.use(bodyParser.json()); // parse body params and attache them to req.body
-server.use(bodyParser.urlencoded({ extended: true }));
-server.use(compress()); // gzip compression
-server.use(helmet()); // secure apps by setting various HTTP headers
-server.use(cors()); // enable CORS - Cross Origin Resource Sharing
+const router = express.Router();
 
-export default server;
+app.disable('x-powered-by');
+app.use(morgan(dev ? 'dev' : 'combined')); // request logging. dev: console | production: file
+app.use(bodyParser.json()); // parse body params and attache them to req.body
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(compress()); // gzip compression
+app.use(helmet()); // secure apps by setting various HTTP headers
+app.use(cors()); // enable CORS - Cross Origin Resource Sharing
+
+export { app as default, router };
