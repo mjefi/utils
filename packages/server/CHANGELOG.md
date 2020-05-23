@@ -1,5 +1,12 @@
 # @mjefi/server
 
+## 0.0.13
+
+### Patch Changes
+
+- 68762ed: remove csp
+- 68762ed: update readme
+
 ## 0.0.12
 
 ### Patch Changes

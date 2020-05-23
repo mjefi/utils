@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.23
+
+### Patch Changes
+
+- 68762ed: update readme
+
 ## 0.0.22
 
 ### Patch Changes
