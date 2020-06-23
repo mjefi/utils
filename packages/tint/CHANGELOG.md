@@ -1,5 +1,11 @@
 # @mjefi/tint
 
+## 0.0.24
+
+### Patch Changes
+
+- d993911: bump postcss cli
+
 ## 0.0.22
 
 ### Patch Changes
