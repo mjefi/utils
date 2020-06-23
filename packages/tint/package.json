@@ -1,11 +1,9 @@
 {
   "name": "@mjefi/tint",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "Base CSS Styles",
   "main": "dist/tint.css",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "postcss src/tint.css --config postcss.config.js --output dist/tint.css",
     "dev": "postcss src/tint.css --watch --map --config postcss.config.js --output docs/tint.css"
